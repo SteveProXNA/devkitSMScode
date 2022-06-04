@@ -1,0 +1,82 @@
+;!FILE riff_manager.asm
+XL3
+H 9 areas 32 global symbols
+M riff_manager
+O -mz80
+S _engine_sample_manager_init Ref000000
+S _engine_sample_manager_play Ref000000
+S .__.ABS. Def000000
+S _riff_sample_data Ref000000
+S _riff_sample_bank Ref000000
+S _devkit_SMS_mapROMBank Ref000000
+A _CODE size 3E flags 0 addr 0
+S G$psgInit$0_0$0 Def000006
+S A$riff_manager$133 Def000039
+S A$riff_manager$134 Def00003B
+S A$riff_manager$125 Def000038
+S A$riff_manager$116 Def000030
+S A$riff_manager$117 Def000031
+S A$riff_manager$108 Def000026
+S A$riff_manager$118 Def000032
+S A$riff_manager$109 Def000029
+S A$riff_manager$119 Def000033
+S A$riff_manager$60 Def000000
+S C$riff_manager.c$11$0_0$85 Def000000
+S A$riff_manager$91 Def000011
+S A$riff_manager$92 Def000013
+S A$riff_manager$93 Def000017
+S C$riff_manager.c$13$1_0$85 Def000000
+S C$riff_manager.c$21$1_0$87 Def000019
+S C$riff_manager.c$14$1_0$85 Def000003
+S A$riff_manager$68 Def000003
+S C$riff_manager.c$22$1_0$87 Def000026
+S A$riff_manager$97 Def000019
+S C$riff_manager.c$24$1_0$87 Def000030
+S A$riff_manager$98 Def00001C
+S C$riff_manager.c$25$1_0$87 Def000038
+S C$riff_manager.c$16$1_0$87 Def000011
+S A$riff_manager$99 Def00001F
+S C$riff_manager.c$26$1_0$87 Def000039
+S G$engine_riff_manager_init$0$0 Def000000
+S G$engine_riff_manager_play$0$0 Def000011
+S _engine_riff_manager_init Def000000
+S _engine_riff_manager_play Def000011
+S XG$engine_riff_manager_init$0$0 Def000003
+S XG$engine_riff_manager_play$0$0 Def000039
+S A$riff_manager$100 Def000021
+S A$riff_manager$110 Def00002C
+S A$riff_manager$101 Def000022
+S A$riff_manager$120 Def000036
+S A$riff_manager$111 Def00002E
+S A$riff_manager$102 Def000023
+S _psgInit Def000006
+S A$riff_manager$121 Def000037
+S A$riff_manager$112 Def00002F
+S A$riff_manager$103 Def000024
+S A$riff_manager$104 Def000025
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 00 00
+T 00 00 00 21 06 00 C3 00 00
+R 00 00 00 00 00 04 00 00 02 07 00 00
+T 06 00 00
+R 00 00 00 00
+T 06 00 00 9F BF DF FF 81 00 A1 00 00 C1 00
+R 00 00 00 00
+T 11 00 00
+R 00 00 00 00
+T 11 00 00 DD E5 DD 21 00 00 DD 39 01 00 00 DD 6E
+R 00 00 00 00 02 0C 03 00
+T 1E 00 00 04 26 00 29 09 5E 23 56 01 00 00 DD 6E
+R 00 00 00 00 02 0C 04 00
+T 2B 00 00 04 26 00 09 7E D5 F5 33 CD 00 00 33 D1
+R 00 00 00 00 02 0C 05 00
+T 38 00 00 EB DD E1 C3 00 00
+R 00 00 00 00 02 07 01 00

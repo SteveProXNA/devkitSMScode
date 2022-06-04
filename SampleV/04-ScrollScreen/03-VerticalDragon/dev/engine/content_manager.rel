@@ -1,0 +1,82 @@
+;!FILE content_manager.asm
+XL3
+H 9 areas 36 global symbols
+M content_manager
+O -mz80
+S _sprites_palette_bin Ref000000
+S _devkit_SMS_loadBGPalette Ref000000
+S _devkit_SMS_loadPSGaidencompressedTiles Ref000000
+S .__.ABS. Def000000
+S _tileset_tiles_psgcompr Ref000000
+S _devkit_SMS_setSpritePaletteColor Ref000000
+S _sprites_tiles_psgcompr Ref000000
+S _devkit_SMS_loadSpritePalette Ref000000
+S _tileset_palette_bin Ref000000
+A _CODE size 34 flags 0 addr 0
+S G$engine_content_manager_load_sprites$0$0 Def000015
+S A$content_manager$110 Def00002A
+S A$content_manager$111 Def00002B
+S A$content_manager$102 Def000021
+S _engine_content_manager_load_sprites Def000015
+S A$content_manager$112 Def00002C
+S A$content_manager$103 Def000024
+S A$content_manager$113 Def00002D
+S A$content_manager$104 Def000025
+S A$content_manager$114 Def00002E
+S A$content_manager$105 Def000028
+S A$content_manager$124 Def000033
+S A$content_manager$115 Def00002F
+S A$content_manager$116 Def000032
+S A$content_manager$109 Def000029
+S XG$engine_content_manager_load_sprites$0$0 Def000033
+S C$content_manager.c$10$1_0$62 Def00000C
+S C$content_manager.c$11$1_0$62 Def000014
+S A$content_manager$60 Def000000
+S A$content_manager$70 Def00000F
+S A$content_manager$61 Def000003
+S C$content_manager.c$12$1_0$63 Def000015
+S G$engine_content_manager_load_bgtiles$0$0 Def000000
+S A$content_manager$80 Def000014
+S A$content_manager$71 Def000010
+S A$content_manager$62 Def000004
+S A$content_manager$72 Def000013
+S A$content_manager$63 Def000007
+S A$content_manager$64 Def000008
+S C$content_manager.c$15$1_0$63 Def000015
+S A$content_manager$65 Def00000B
+S C$content_manager.c$16$1_0$63 Def000021
+S A$content_manager$93 Def000015
+S C$content_manager.c$17$1_0$63 Def000029
+S A$content_manager$94 Def000018
+S C$content_manager.c$18$1_0$63 Def000033
+S A$content_manager$95 Def000019
+S A$content_manager$96 Def00001C
+S A$content_manager$69 Def00000C
+S A$content_manager$97 Def00001D
+S A$content_manager$98 Def000020
+S _engine_content_manager_load_bgtiles Def000000
+S C$content_manager.c$6$0_0$62 Def000000
+S C$content_manager.c$9$1_0$62 Def000000
+S XG$engine_content_manager_load_bgtiles$0$0 Def000014
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 00 00
+T 00 00 00 21 00 01 E5 21 00 00 E5 CD 00 00 F1 21
+R 00 00 00 00 02 08 04 00 02 0C 02 00
+T 0D 00 00 00 00 E3 CD 00 00 F1 C9
+R 00 00 00 00 02 03 08 00 02 07 01 00
+T 15 00 00
+R 00 00 00 00
+T 15 00 00 21 00 00 E5 21 00 00 E5 CD 00 00 F1 21
+R 00 00 00 00 02 08 06 00 02 0C 02 00
+T 22 00 00 00 00 E3 CD 00 00 F1 AF F5 33 AF F5 33
+R 00 00 00 00 02 03 00 00 02 07 07 00
+T 2F 00 00 CD 00 00 F1 C9
+R 00 00 00 00 02 04 05 00

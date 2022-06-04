@@ -1,0 +1,55 @@
+XL2
+H 9 areas 14 global symbols
+M tile_object
+O -mz80
+S _sea_turtles_array Ref0000
+S _sign_goal_array Ref0000
+S _cloud01_array Ref0000
+S _cloud02_array Ref0000
+S _sea_tiles_array Ref0000
+S _fly_turtles_array Ref0000
+S .__.ABS. Def0000
+S _sign_numb_array Ref0000
+S _section01_array Ref0000
+S _section02_array Ref0000
+S _section03_array Ref0000
+S _section04_array Ref0000
+S _no_tiles_array Ref0000
+A _CODE size 18 flags 0 addr 0
+S G$tile_object_high$0$0 Def000C
+S G$tile_object_wide$0$0 Def0000
+S _tile_object_high Def000C
+S _tile_object_wide Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 18 flags 0 addr 0
+S G$tile_object_data$0$0 Def0000
+S _tile_object_data Def0000
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 18 flags 0 addr 0
+S Ftile_object$__xinit_tile_object_data$0$0 Def0000
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 01 04 0C 0C 08 08 04 06 04 04 03 03
+R 00 00 00 00
+T 0C 00
+R 00 00 00 00
+T 0C 00 01 03 0A 06 04 0A 03 03 03 03 03 03
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 0C 00 02 04 04 00 02 06 08 00
+T 06 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 09 00 02 04 0A 00 02 06 0B 00
+T 0C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 02 00 02 04 03 00 02 06 00 00
+T 12 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 05 00 02 04 07 00 02 06 01 00

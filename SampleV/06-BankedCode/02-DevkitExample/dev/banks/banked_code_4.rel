@@ -1,0 +1,29 @@
+;!FILE banked_code_4.asm
+XL3
+H A areas A global symbols
+M banked_code_4
+O -mz80
+S .__.ABS. Def000000
+S b_banked_code_4 Def000004
+A _CODE size 0 flags 0 addr 0
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _BANK4 size 4 flags 0 addr 0
+S C$banked_code_4.c$9$1_0$1 Def000000
+S G$banked_code_4$0$0 Def000000
+S _banked_code_4 Def000000
+S XG$banked_code_4$0$0 Def000003
+S A$banked_code_4$65 Def000003
+S A$banked_code_4$57 Def000000
+S C$banked_code_4.c$10$1_0$1 Def000003
+S C$banked_code_4.c$6$0_0$1 Def000000
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 07 00
+T 00 00 00 21 08 00 C9
+R 00 00 07 00

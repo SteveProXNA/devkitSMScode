@@ -1,0 +1,45 @@
+XL3
+H A areas 7 global symbols
+M bank2
+O -mz80
+S .__.ABS. Def000000
+A _CODE size 0 flags 0 addr 0
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _BANK2 size 66 flags 0 addr 0
+S _sfx_reset_psg Def000043
+S G$sfx_reset_psg$0_0$0 Def000043
+S _sfx_power_psg Def000020
+S G$sfx_power_psg$0_0$0 Def000020
+S _sfx_accept_psg Def000000
+S G$sfx_accept_psg$0_0$0 Def000000
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 07 00
+T 00 00 00 C5 4D D0 3B CE 48 3B C7 44 D5 3A CA 46
+R 00 00 07 00
+T 0D 00 00 3B C5 4D DA 3A 09 04 00 DB 3B CA 46 DD
+R 00 00 07 00
+T 1A 00 00 3A C0 40 DF 38 00
+R 00 00 07 00
+T 20 00 00
+R 00 00 07 00
+T 20 00 00 CE 4B D0 3B D1 38 CF 47 08 02 00 C7 49
+R 00 00 07 00
+T 2D 00 00 0A 02 00 09 02 00 45 D0 3B D1 3B D2 3A
+R 00 00 07 00
+T 3A 00 00 D3 39 D4 39 C3 55 DF 3C 00
+R 00 00 07 00
+T 43 00 00
+R 00 00 07 00
+T 43 00 00 C5 4D D0 3B C0 4A 3B C7 49 3B CE 48 D5
+R 00 00 07 00
+T 50 00 00 3B C5 4D 3B C0 4A 3B C7 49 DA 3B CE 48
+R 00 00 07 00
+T 5D 00 00 3B C0 49 3B C0 40 DF 3B 00
+R 00 00 07 00

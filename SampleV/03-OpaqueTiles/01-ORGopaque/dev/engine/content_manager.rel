@@ -1,0 +1,87 @@
+;!FILE content_manager.asm
+XL3
+H 9 areas 39 global symbols
+M content_manager
+O -mz80
+S _game_tiles__tiles__psgcompr Ref000000
+S _sprites__palette__bin Ref000000
+S _devkit_SMS_loadBGPalette Ref000000
+S _devkit_SMS_loadPSGaidencompressedTiles Ref000000
+S _game_tiles__palette__bin Ref000000
+S _font_tiles__tiles__psgcompr Ref000000
+S .__.ABS. Def000000
+S _sprites__tiles__psgcompr Ref000000
+S _font_tiles__palette__bin Ref000000
+S _devkit_SMS_loadSpritePalette Ref000000
+A _CODE size 3D flags 0 addr 0
+S G$engine_content_manager_load_sprites$0$0 Def000028
+S A$content_manager$110 Def00002F
+S A$content_manager$111 Def000030
+S _engine_content_manager_load_sprites Def000028
+S A$content_manager$112 Def000033
+S A$content_manager$116 Def000034
+S A$content_manager$107 Def000028
+S A$content_manager$117 Def000037
+S A$content_manager$108 Def00002B
+S A$content_manager$127 Def00003C
+S A$content_manager$118 Def000038
+S A$content_manager$109 Def00002C
+S A$content_manager$119 Def00003B
+S G$engine_content_manager_load_tiles$0$0 Def000000
+S XG$engine_content_manager_load_sprites$0$0 Def00003C
+S A$content_manager$60 Def000003
+S A$content_manager$70 Def000010
+S A$content_manager$61 Def000004
+S A$content_manager$62 Def000007
+S A$content_manager$63 Def000008
+S C$content_manager.c$20$1_0$66 Def000028
+S C$content_manager.c$12$1_0$65 Def000000
+S A$content_manager$64 Def00000B
+S C$content_manager.c$13$1_0$65 Def00000C
+S _engine_content_manager_load_tiles Def000000
+S A$content_manager$83 Def00001F
+S A$content_manager$74 Def000013
+S A$content_manager$84 Def000022
+S A$content_manager$75 Def000016
+S C$content_manager.c$23$1_0$66 Def000028
+S A$content_manager$94 Def000027
+S A$content_manager$85 Def000023
+S A$content_manager$76 Def000017
+S C$content_manager.c$24$1_0$66 Def000034
+S C$content_manager.c$16$1_0$65 Def000013
+S A$content_manager$86 Def000026
+S A$content_manager$77 Def00001A
+S A$content_manager$68 Def00000C
+S A$content_manager$59 Def000000
+S C$content_manager.c$25$1_0$66 Def00003C
+S C$content_manager.c$17$1_0$65 Def00001F
+S A$content_manager$78 Def00001B
+S A$content_manager$69 Def00000F
+S C$content_manager.c$18$1_0$65 Def000027
+S A$content_manager$79 Def00001E
+S XG$engine_content_manager_load_tiles$0$0 Def000027
+S C$content_manager.c$9$0_0$65 Def000000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 00 00
+T 00 00 00 21 00 00 E5 21 00 00 E5 CD 00 00 F1 21
+R 00 00 00 00 02 08 05 00 02 0C 03 00
+T 0D 00 00 00 00 E3 CD 00 00 21 40 00 E3 21 00 00
+R 00 00 00 00 02 03 08 00 02 07 02 00 02 0E 00 00
+T 1A 00 00 E5 CD 00 00 F1 21 00 00 E3 CD 00 00 F1
+R 00 00 00 00 02 05 03 00 02 09 04 00 02 0D 02 00
+T 27 00 00 C9
+R 00 00 00 00
+T 28 00 00
+R 00 00 00 00
+T 28 00 00 21 00 01 E5 21 00 00 E5 CD 00 00 F1 21
+R 00 00 00 00 02 08 07 00 02 0C 03 00
+T 35 00 00 00 00 E3 CD 00 00 F1 C9
+R 00 00 00 00 02 03 01 00 02 07 09 00
